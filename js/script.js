@@ -31,5 +31,5 @@ white.addEventListener("click", () => {
   car_img.src = "./assets/images/white_car.png";
 });
 grey.addEventListener("click", () => {
-  car_img.src = "./assets/images/grey_tank.png";
+  car_img.src = "./assets/images/grey_tank-color.png";
 });

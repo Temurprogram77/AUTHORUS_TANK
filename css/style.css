@@ -380,6 +380,7 @@ nav {
 .red_car-top_part {
   justify-content: space-between;
   display: flex;
+  align-items: center;
 }
 .red_car-part {
   padding: 60px 0;
@@ -429,6 +430,11 @@ nav {
   align-items: center;
   justify-content: center;
   gap: 10px;
+}
+.red_car-wrt h3 {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 15px;
 }
 .red_car-img {
   display: flex;
