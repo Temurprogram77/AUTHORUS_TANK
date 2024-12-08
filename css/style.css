@@ -259,7 +259,9 @@ nav {
   max-width: 1200px;
   margin: 20px auto;
   padding: 20px;
+  flex-wrap: wrap;
   display: flex;
+  gap: 15px;
   justify-content: space-between;
   align-items: center;
   border-radius: 10px;
@@ -270,10 +272,7 @@ nav {
   align-items: center;
   gap: 10px;
 }
-.one_watch,
-.two_watch,
-.three_watch,
-.four_watch {
+.watches {
   width: 75px;
   height: 75px;
   display: flex;

@@ -73,6 +73,16 @@
   .forward_btn img {
     width: 10px;
   }
+  .special_offers-title {
+    max-width: 100%;
+  }
+  .special_offers {
+    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-direction: column; */
+    gap: 20px;
+  }
 }
 @media screen and (max-width: 600px) {
   .none {
@@ -90,5 +100,39 @@
   }
   .avto_writing p {
     color: var(--text-grey);
+  }
+  .watches {
+    width: 60px;
+    height: 60px;
+  }
+  .inside_watch h2 {
+    font-size: 16px;
+  }
+  .inside_watch p {
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .special_offers {
+    margin: 20px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .price_with_benefits {
+    width: 100%;
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .special_offers-title {
+    font-size: 25px;
+    text-align: center;
+  }
+  .watches {
+    width: 50px;
+    height: 50px;
+    padding: 3px;
+  }
+  .dividing {
+    font-size: 20px;
   }
 }
