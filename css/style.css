@@ -336,7 +336,7 @@ nav {
 }
 .cards {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 30px auto;
   flex-wrap: wrap;
   display: flex;
   align-items: center;
