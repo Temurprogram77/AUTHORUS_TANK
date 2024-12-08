@@ -13,7 +13,7 @@ close.addEventListener("click", () => {
   menu.classList.remove("active_menu");
 });
 
-// 
+// cars colors clicked
 
 black.addEventListener("click", () => {
   car_img.src = "./assets/images/black_tank.png";
