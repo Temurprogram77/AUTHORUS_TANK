@@ -398,6 +398,7 @@ nav {
   padding: 3px 10px;
   font-size: 12px;
   border-radius: 10px;
+  margin-bottom: 25px;
   cursor: pointer;
   max-width: fit-content;
   background: var(--bg-red);
@@ -434,7 +435,6 @@ nav {
 .red_car-wrt h3 {
   font-size: 25px;
   font-weight: 400;
-  margin-bottom: 15px;
 }
 .red_car-img {
   display: flex;
