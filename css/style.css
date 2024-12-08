@@ -254,6 +254,7 @@ nav {
   margin-top: 20px;
   color: var(--text-black);
 }
+/*Watch Section */
 .special_offers {
   max-width: 1200px;
   margin: 20px auto;
@@ -261,7 +262,6 @@ nav {
   border-radius: 10px;
   background: var(--bg-blue_light);
 }
-/*Watch Section */
 .watch {
   display: flex;
   align-items: center;
