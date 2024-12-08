@@ -27,9 +27,9 @@ red.addEventListener("click", () => {
 orange.addEventListener("click", () => {
   car_img.src = "./assets/images/orange_car.png";
 });
-red.addEventListener("click", () => {
-  car_img.src = "./assets/images/red_car_big.png";
+white.addEventListener("click", () => {
+  car_img.src = "./assets/images/white_car.png";
 });
-red.addEventListener("click", () => {
-  car_img.src = "./assets/images/red_car_big.png";
+grey.addEventListener("click", () => {
+  car_img.src = "./assets/images/grey_tank.png";
 });
