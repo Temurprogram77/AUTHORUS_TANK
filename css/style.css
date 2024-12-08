@@ -302,3 +302,12 @@ nav {
   align-items: center;
   padding: 10px 20px;
 }
+.dividing {
+  font-size: 30px;
+  font-weight: 700;
+}
+.special_offers-title {
+  font-size: 30px;
+  font-weight: 800;
+  max-width: 300px;
+}
