@@ -65,6 +65,10 @@
   .forward_btn {
     max-width: 100%;
     padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
   }
   .forward_btn img {
     width: 10px;
