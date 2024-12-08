@@ -262,3 +262,23 @@ nav {
   background: var(--bg-blue_light);
 }
 /*Watch Section */
+.one_watch {
+  width: 75px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-orange_sharp);
+  border-radius: 50%;
+  padding: 5px;
+}
+.inside_watch {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-blue_light);
+  border-radius: 50%;
+}
