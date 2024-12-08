@@ -50,9 +50,6 @@
     cursor: pointer;
     width: 25px;
   }
-  .container_bg {
-    display: none;
-  }
   .bg-container {
     background-size: cover;
     background-image: none;
