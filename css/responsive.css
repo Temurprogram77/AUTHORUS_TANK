@@ -1,3 +1,18 @@
+@media screen and (max-width: 1200px) {
+  .card {
+    width: 48%;
+  }
+  .navbar {
+    margin: 20px;
+  }
+  .special_offers {
+    margin: 20px;
+  }
+  .cards {
+    gap: 20px;
+    margin: 0 20px;
+  }
+}
 @media screen and (max-width: 1024px) {
   .navbar {
     margin: 20px;
@@ -20,6 +35,16 @@
   }
   .bg-container {
     background-size: contain;
+  }
+  .special_offers {
+    margin: 20px;
+  }
+  .cards {
+    gap: 15px;
+    margin: 0 20px;
+  }
+  .card {
+    width: 48%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -83,6 +108,15 @@
     /* flex-direction: column; */
     gap: 20px;
   }
+  .cards {
+    row-gap: 20px;
+  }
+  .card {
+    width: 100%;
+  }
+  .wrt_card {
+    width: 70%;
+  }
 }
 @media screen and (max-width: 600px) {
   .none {
@@ -121,6 +155,21 @@
     width: 100%;
     padding: 15px;
   }
+  .card {
+    width: 100%;
+  }
+  .wrt_card {
+    width: 90%;
+  }
+  .wrt_card h2 {
+    font-size: 14px;
+  }
+  .card img {
+    width: 24px;
+  }
+  .wrt_card p {
+    font-size: 10px;
+  }
 }
 @media screen and (max-width: 400px) {
   .special_offers-title {
@@ -137,5 +186,14 @@
   }
   .dividing {
     font-size: 20px;
+  }
+  .card {
+    height: 70px;
+  }
+  .card img {
+    width: 20px;
+  }
+  .wrt_card p {
+    display: none;
   }
 }

@@ -310,3 +310,38 @@ nav {
   font-weight: 800;
   max-width: 300px;
 }
+/* cards */
+.card {
+  width: 380px;
+  height: 100px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  cursor: pointer;
+  border: 2px solid var(--border-grey);
+  border-radius: 10px;
+}
+.card:hover {
+  border: 2px solid var(--border-orange);
+}
+.wrt_card h2 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.wrt_card p {
+  font-weight: 300;
+  font-size: 14px;
+}
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cards img {
+  width: 30px;
+}
