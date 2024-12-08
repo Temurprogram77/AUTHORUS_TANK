@@ -13,6 +13,11 @@
   --bg-blue_very_light: #383838;
   --bg-orange_sharp: #fe8630;
   --bg-orange_light: #ff9549;
+  --bg-red: #ff2b00;
+  --bg-red-light: #EF2929;
+  --bg-orange: #DF4C30;
+  --bg-dark: #212329;
+  --bg-grey: #C6C9CE;
 
   /* Borders */
   --border-grey: #939697;
@@ -371,4 +376,96 @@ nav {
   text-align: center;
   max-width: 800px;
 }
-
+/* red tank */
+.red_car-top_part {
+  justify-content: space-between;
+  display: flex;
+}
+.red_car-part {
+  padding: 60px 0;
+  background: var(--bg-blue_sharp);
+}
+.red_car-part_inside {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.warning {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 10px;
+  font-size: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  max-width: fit-content;
+  background: var(--bg-red);
+}
+.warning img {
+  width: 15px;
+}
+.btn_free {
+  cursor: pointer;
+  background: var(--bg-orange_light);
+  border-radius: 10px;
+  max-width: 350px;
+  padding: 10px 0;
+  color: var(--text-black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.btn_test,
+.btn_credit {
+  margin-top: 10px;
+  cursor: pointer;
+  border: 2px solid var(--border-orange);
+  color: var(--text-white);
+  border-radius: 10px;
+  max-width: 350px;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.red_car-img {
+  display: flex;
+  align-items: center;
+}
+.red_car-img img {
+  width: 700px;
+}
+.circles {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.colors {
+  cursor: pointer;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+.red {
+  background: var(--bg-red-light);
+}
+.orange {
+  background: var(--bg-orange);
+}
+.grey {
+  background: var(--bg-grey);
+}
+.black {
+  background: var(--bg-dark);
+  border: 1px solid var(--border-grey);
+}
+.white {
+  background: var(--bg-white);
+}
+.orange_text {
+  font-weight: 600;
+  font-size: 12px;
+  color: var(--text-orange);
+}
