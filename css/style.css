@@ -362,4 +362,8 @@ nav {
   flex-direction: column;
   align-items: center;
 }
+.tank_title {
+  text-align: center;
+  max-width: 800px;
+}
 
