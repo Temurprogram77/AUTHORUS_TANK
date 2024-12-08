@@ -345,3 +345,21 @@ nav {
 .cards img {
   width: 30px;
 }
+/* tank images */
+.tank_cars-img {
+  max-width: 1200px;
+  margin: 60px auto;
+}
+.tank_images {
+  display: flex;
+  align-items: center;
+}
+.tank_images img {
+  width: 200px;
+}
+.tank_img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
