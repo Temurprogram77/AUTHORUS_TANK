@@ -59,6 +59,16 @@
     display: block;
     width: 100%;
   }
+  .container_bg {
+    margin: 20px;
+  }
+  .forward_btn {
+    max-width: 100%;
+    padding: 15px;
+  }
+  .forward_btn img {
+    width: 10px;
+  }
 }
 @media screen and (max-width: 600px) {
   .none {
