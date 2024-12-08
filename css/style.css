@@ -298,5 +298,7 @@ nav {
   border-radius: 50%;
 }
 .price_with_benefits {
+  display: flex;
+  align-items: center;
   padding: 10px 20px;
 }
