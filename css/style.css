@@ -259,6 +259,9 @@ nav {
   max-width: 1200px;
   margin: 20px auto;
   padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   border-radius: 10px;
   background: var(--bg-blue_light);
 }
@@ -293,4 +296,7 @@ nav {
   justify-content: center;
   background: var(--bg-blue_light);
   border-radius: 50%;
+}
+.price_with_benefits {
+  padding: 10px 20px;
 }
