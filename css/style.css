@@ -262,7 +262,15 @@ nav {
   background: var(--bg-blue_light);
 }
 /*Watch Section */
-.one_watch {
+.watch {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.one_watch,
+.two_watch,
+.three_watch,
+.four_watch {
   width: 75px;
   height: 75px;
   display: flex;
@@ -271,6 +279,10 @@ nav {
   background: var(--bg-orange_sharp);
   border-radius: 50%;
   padding: 5px;
+}
+.inside_watch p {
+  font-size: 13px;
+  font-weight: 500;
 }
 .inside_watch {
   width: 100%;
