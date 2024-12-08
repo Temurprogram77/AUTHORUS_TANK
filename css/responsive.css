@@ -46,6 +46,9 @@
   .card {
     width: 48%;
   }
+  .tank_title {
+    margin: 0 20px;
+  }
 }
 @media screen and (max-width: 768px) {
   .avto-container_top_part {
@@ -168,6 +171,15 @@
     width: 24px;
   }
   .wrt_card p {
+    font-size: 10px;
+  }
+  .tank_img img {
+    width: 150px;
+  }
+  .tank_title {
+    font-size: 20px;
+  }
+  .tank_img {
     font-size: 10px;
   }
 }

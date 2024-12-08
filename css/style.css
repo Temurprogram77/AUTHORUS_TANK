@@ -347,6 +347,9 @@ nav {
 }
 /* tank images */
 .tank_cars-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   max-width: 1200px;
   margin: 60px auto;
 }
@@ -363,6 +366,8 @@ nav {
   align-items: center;
 }
 .tank_title {
+  font-size: 30px;
+  font-weight: 800;
   text-align: center;
   max-width: 800px;
 }
