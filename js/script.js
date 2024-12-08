@@ -2,6 +2,9 @@ let menu = document.querySelector(".menu");
 let menu_bar = document.querySelector(".menu_burger");
 let close = document.querySelector(".img");
 let black = document.querySelector(".black");
+let orange = document.querySelector(".orange");
+let white = document.querySelector(".white");
+let grey = document.querySelector(".grey");
 let red = document.querySelector(".red");
 let car_img = document.querySelector(".red_car-img img");
 
@@ -17,6 +20,15 @@ close.addEventListener("click", () => {
 
 black.addEventListener("click", () => {
   car_img.src = "./assets/images/black_tank.png";
+});
+red.addEventListener("click", () => {
+  car_img.src = "./assets/images/red_car_big.png";
+});
+orange.addEventListener("click", () => {
+  car_img.src = "./assets/images/orange_car_big.png";
+});
+red.addEventListener("click", () => {
+  car_img.src = "./assets/images/red_car_big.png";
 });
 red.addEventListener("click", () => {
   car_img.src = "./assets/images/red_car_big.png";
