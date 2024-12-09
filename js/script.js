@@ -19,6 +19,7 @@ let thirdCar_img = document.querySelector("#third-car_img");
 let fourthCar_img = document.querySelector("#fourth-car_img");
 let fiveCar_img = document.querySelector("#fifthy-car_img");
 let modal = document.querySelector(".modal_car-background");
+let big_img = document.querySelector("#big-img");
 
 menu_bar.addEventListener("click", () => {
   menu.classList.add("active_menu");
@@ -67,3 +68,20 @@ fourthCar_img.addEventListener("click", ()=>{
 fiveCar_img.addEventListener("click", ()=>{
   modal.classList.add("active");
 })
+
+first_img.addEventListener("click", () => {
+  big_img.src = "./assets/images/first_car.png";
+});
+second_img.addEventListener("click", () => {
+  big_img.src = "./assets/images/second_car.png";
+});
+third_img.addEventListener("click", () => {
+  big_img.src = "./assets/images/third_car.png";
+});
+four_img.addEventListener("click", () => {
+  big_img.src = "./assets/images/four_car.png";
+});
+fifty_img.addEventListener("click", () => {
+  big_img.src = "./assets/images/five_car.png";
+});
+
