@@ -14,10 +14,10 @@
   --bg-orange_sharp: #fe8630;
   --bg-orange_light: #ff9549;
   --bg-red: #ff2b00;
-  --bg-red-light: #EF2929;
-  --bg-orange: #DF4C30;
+  --bg-red-light: #ef2929;
+  --bg-orange: #df4c30;
   --bg-dark: #212329;
-  --bg-grey: #C6C9CE;
+  --bg-grey: #c6c9ce;
 
   /* Blur */
   --bg-black_blur: #181818e7;
@@ -508,7 +508,8 @@ nav {
 .car_img img:hover {
   scale: 1.1;
 }
-.car_img img, .car_img {
+.car_img img,
+.car_img {
   border-radius: 10px;
   transition: scale 0.3s;
   width: 220px;
@@ -537,4 +538,12 @@ nav {
 }
 .flex_img img:hover {
   scale: 1.01;
+}
+.close_icon {
+  position: absolute;
+  right: 30px;
+  cursor: pointer;
+}
+.close_icon img {
+  width: 20px;
 }
