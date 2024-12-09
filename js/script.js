@@ -13,11 +13,11 @@ let third_img = document.querySelector("#third_img");
 let four_img = document.querySelector("#fourthy_img");
 let fifty_img = document.querySelector("#fifthy_img");
 let close_img = document.querySelector(".close_icon");
-let firstCar_img = document.querySelector(".first-car_img");
-let secondCar_img = document.querySelector(".second-car_img");
-let thirdCar_img = document.querySelector(".third-car_img");
-let fourthCar_img = document.querySelector(".fourth-car_img");
-let fiveCar_img = document.querySelector(".fifthy-car_img");
+let firstCar_img = document.querySelector("#first-car_img");
+let secondCar_img = document.querySelector("#second-car_img");
+let thirdCar_img = document.querySelector("#third-car_img");
+let fourthCar_img = document.querySelector("#fourth-car_img");
+let fiveCar_img = document.querySelector("#fifthy-car_img");
 let modal = document.querySelector(".modal_car-background");
 
 menu_bar.addEventListener("click", () => {
