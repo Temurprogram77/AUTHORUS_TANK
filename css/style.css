@@ -498,6 +498,6 @@ nav {
   display: flex;
   justify-content: space-between;
 }
-.bottom_part-inside img {
+.car_img img, .car_img {
   width: 220px;
 }
