@@ -498,6 +498,15 @@ nav {
   display: flex;
   justify-content: space-between;
 }
+.car_img {
+  overflow: hidden;
+  cursor: pointer;
+}
+.car_img img:hover {
+  scale: 1.1;
+}
 .car_img img, .car_img {
+  border-radius: 10px;
+  transition: scale 0.3s;
   width: 220px;
 }
