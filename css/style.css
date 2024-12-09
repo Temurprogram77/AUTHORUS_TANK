@@ -19,6 +19,9 @@
   --bg-dark: #212329;
   --bg-grey: #C6C9CE;
 
+  /* Blur */
+  --bg-black_blur: #181818e7;
+
   /* Borders */
   --border-grey: #939697;
   --border-bottom: #464646;
@@ -509,4 +512,29 @@ nav {
   border-radius: 10px;
   transition: scale 0.3s;
   width: 220px;
+}
+/* Modal images */
+.modal_car-background {
+  background: var(--bg-black_blur);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+.modal_images {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.big_img {
+  width: 100%;
+  height: 500px;
+}
+.flex_img {
+  display: flex;
+  gap: 10px;
+}
+.flex_img img:hover {
+  scale: 1.01;
 }
