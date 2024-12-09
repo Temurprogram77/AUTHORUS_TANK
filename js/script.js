@@ -12,7 +12,9 @@ let second_img = document.querySelector("#second_img");
 let third_img = document.querySelector("#third_img");
 let four_img = document.querySelector("#fourthy_img");
 let fifty_img = document.querySelector("#fifthy_img");
-let close_img = document.querySelector(".close_img");
+let close_img = document.querySelector(".close_icon");
+let red_card = document.querySelector(".car_img");
+let modal = document.querySelector(".modal_car-background");
 
 menu_bar.addEventListener("click", () => {
   menu.classList.add("active_menu");
@@ -43,5 +45,9 @@ grey.addEventListener("click", () => {
 // Modal img
 
 close_img.addEventListener("click", () => {
-  menu.classList.remove("active");
+  modal.classList.remove("active");
 });
+
+red_card.addEventListener("click", ()=>{
+  modal.classList.add("active");
+})
