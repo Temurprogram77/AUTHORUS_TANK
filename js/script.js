@@ -12,6 +12,7 @@ let second_img = document.querySelector("#second_img");
 let third_img = document.querySelector("#third_img");
 let four_img = document.querySelector("#fourthy_img");
 let fifty_img = document.querySelector("#fifthy_img");
+let close_img = document.querySelector(".close_img");
 
 menu_bar.addEventListener("click", () => {
   menu.classList.add("active_menu");
@@ -37,4 +38,10 @@ white.addEventListener("click", () => {
 });
 grey.addEventListener("click", () => {
   car_img.src = "./assets/images/grey_tank-color.png";
+});
+
+// Modal img
+
+close_img.addEventListener("click", () => {
+  menu.classList.remove("active");
 });

@@ -523,6 +523,7 @@ nav {
   top: 0;
   display: flex;
   align-items: center;
+  display: none;
 }
 .modal_images {
   max-width: 1000px;
@@ -546,4 +547,7 @@ nav {
 }
 .close_icon img {
   width: 20px;
+}
+.active {
+  display: block;
 }
