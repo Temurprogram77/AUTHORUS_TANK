@@ -475,3 +475,21 @@ nav {
   font-size: 12px;
   color: var(--text-orange);
 }
+.red_car-center_part {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.red_card {
+  width: 400px;
+  height: 70px;
+  border-radius: 10px;
+  background: var(--bg-black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.red_card p {
+  width: 200px;
+}
