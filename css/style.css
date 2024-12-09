@@ -493,3 +493,11 @@ nav {
 .red_card p {
   width: 200px;
 }
+.bottom_part-inside {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom_part-inside img {
+  width: 220px;
+}
