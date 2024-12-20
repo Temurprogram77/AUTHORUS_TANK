@@ -51,6 +51,9 @@ nav {
   background: var(--bg-orange_light);
   color: black;
 }
+.hover-btn2 {
+  transition: background 0.2s;
+}
 .navbar {
   display: flex;
   align-items: center;
