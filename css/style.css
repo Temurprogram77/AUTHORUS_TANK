@@ -42,6 +42,15 @@ nav {
   max-width: 1200px;
   margin: 20px auto;
 }
+.hover-btn:hover {
+  background: transparent;
+  border: 2px solid var(--border-orange);
+  color: var(--text-white);
+}
+.hover-btn2:hover {
+  background: var(--bg-orange);
+  color: black;
+}
 .navbar {
   display: flex;
   align-items: center;
@@ -260,7 +269,9 @@ nav {
   border-radius: 10px;
   font-weight: 600;
   margin-top: 20px;
+  border: 2px solid var(--border-orange);
   color: var(--text-black);
+  transition: background 0.2s, color 0.2s;
 }
 /*Watch Section */
 .special_offers {
