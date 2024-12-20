@@ -48,7 +48,7 @@ nav {
   color: var(--text-white);
 }
 .hover-btn2:hover {
-  background: var(--bg-orange);
+  background: var(--bg-orange_sharp);
   color: black;
 }
 .navbar {
