@@ -52,7 +52,7 @@ nav {
   color: black;
 }
 .hover-btn2 {
-  transition: background 0.2s, color 0.2s;
+  transition: background 0.2s, color ;
 }
 .navbar {
   display: flex;
